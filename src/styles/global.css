@@ -7,6 +7,8 @@ a:hover{
 }
 body{
     color:#000;
+    font-family:"Bellota Text";
+    font-weight:700;
 }
 h1,h2,h3,h4{
     color:rgba(30, 8, 82, 0.2);

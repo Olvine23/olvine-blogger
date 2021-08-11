@@ -54,12 +54,14 @@ const BlogIndex = ({ data, location }) => {
                     }}
                     itemProp="description"
                   />
+
                 </section>
               </article>
             </li>
           )
         })}
       </ol>
+      
     </Layout>
   )
 }
