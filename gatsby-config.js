@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Olvine's stories and more`,
     author: {
       name: `Olvine George`,
-      summary: `who lives and works in San Francisco as a Software Developer.`,
+      summary: `a software developer currently in Kenya.`,
     },
     description: `Let us learn code together`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
@@ -47,6 +47,7 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          `gatsby-remark-reading-time`,
         ],
       },
     },

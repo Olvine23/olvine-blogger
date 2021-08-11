@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-
+import "../styles/global.css"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -41,13 +41,14 @@ const BlogIndex = ({ data, location }) => {
                 <header>
                   <h2>
                     <Link to={post.fields.slug} itemProp="url">
-                      <span style ={{color:"white"}} itemProp="headline">{title}</span>
+                      <span style ={{color:"#333"}} itemProp="headline">{title}</span>
                     </Link>
                   </h2>
                   <small>{post.frontmatter.date}</small>
+                   
                 </header>
                 <section>
-                  <p style ={{color:"#fff3"}}
+                  <p style ={{color:"#000"}}
                     dangerouslySetInnerHTML={{
                       __html: post.frontmatter.description || post.excerpt,
                     }}

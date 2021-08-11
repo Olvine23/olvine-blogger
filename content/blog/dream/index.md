@@ -1,6 +1,7 @@
 ---
-title: My First Coding Project
-date: "2021-08-09T23:46:37.121Z"
+title: Lost In A Dream
+date: "2021-08-11T23:46:37.121Z"
+description: "Hello World"
 ---
 
 Learning gatsby is really really awesome lets check it out <br></br>
@@ -21,4 +22,4 @@ We can try and learn some bit of javascript today.
  ```javascript
  let name = "Olvine";
  ```
- ![Laptop](./laptop.jpg)
+ ![Laptop](./party.jpg)
